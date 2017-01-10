@@ -33,6 +33,9 @@ cscope.out
 cscope.in.out
 cscope.po.out
 
+gems.tags
+EOT
+
 # Vim       taken from: https://github.com/github/gitignore/blob/master/Global/vim.gitignore
 # ----------------------------------------------------------------------------------------------
 [._]*.s[a-w][a-z]

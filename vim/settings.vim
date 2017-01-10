@@ -13,3 +13,11 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 
   exe 'source' fpath
 endfor
+
+map <F2> :NERDTreeToggle<CR>
+
+"This unsets the 'last search pattern' register by hitting return"
+nnoremap <CR> :noh<CR><CR>
+
+"Let vim know the existence of gems.tags with guard."
+set tags+=gems.tags
