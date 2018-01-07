@@ -1,2 +1,3 @@
-# prompt skwp
-prompt smiley
+prompt skwp
+# prompt smiley
+# prompt agnoster
