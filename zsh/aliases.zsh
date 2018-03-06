@@ -147,6 +147,9 @@ alias c='rails c' # Rails 3
 alias co='script/console' # Rails 2
 alias cod='script/console --debugger'
 
+# rbenv
+alias rbl='rbenv install -l | grep -v - | tail -10' # List the 10 latest MRI ruby versions
+
 #If you want your thin to listen on a port for local VM development
 #export VM_IP=10.0.0.1 <-- your vm ip
 alias ts='thin start -a ${VM_IP:-127.0.0.1}'
