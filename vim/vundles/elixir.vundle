@@ -1,0 +1,5 @@
+Bundle "ludovicchabant/vim-gutentags"
+Bundle "c-brenn/phoenix.vim"
+Bundle "tpope/vim-projectionist"
+Bundle "slashmili/alchemist.vim"
+
